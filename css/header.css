@@ -11,7 +11,5 @@
 }
 
 .header_grey {
-    height: 70px;
     background-color: DimGray;
-    z-index: -1;
 }

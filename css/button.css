@@ -23,7 +23,3 @@
 
     color: antiquewhite;
 }
-
-.button_hover:hover {
-    border-bottom: 5px solid antiquewhite;
-}

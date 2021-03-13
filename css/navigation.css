@@ -36,3 +36,38 @@
 .navigation__item_active:active {
     text-decoration: none;
 }
+
+.navigation__button {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .navigation__item {
+        font-size: 13px;
+    }
+
+    .navigation__item_bold {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigation__button {
+        display: block;
+    }
+    .navigation {
+        padding-left: 20px;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .navigation__item {
+       display: none;
+       padding-top: 20px;
+    }
+    .navigation__button:checked ~ .navigation__item.navigation__item_link {
+       display: block;
+    }
+}
