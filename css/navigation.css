@@ -41,6 +41,10 @@
     display: none;
 }
 
+.navigation__menu-ico {
+    display: none;
+}
+
 @media screen and (max-width: 800px) {
     .navigation__item {
         font-size: 13px;
@@ -54,11 +58,14 @@
 }
 
 @media screen and (max-width: 600px) {
-    .navigation__button {
+    .navigation__menu-ico {
         display: block;
+        position: absolute;
+        top: 20px;
     }
+
     .navigation {
-        padding-left: 20px;
+        padding: 40px 0px 0px 20px;
         flex-flow: column nowrap;
         justify-content: space-around;
         align-items: flex-start;

@@ -1,9 +1,10 @@
 @import url("/css/logo.css");
 @import url("/css/button.css");
 @import url("/css/header.css");
+@import url("/css/navigation.css");
 @import url("/css/promo.css");
 @import url("/css/more.css");
-@import url("/css/navigation.css");
+@import url("/css/waiting.css");
 @import url("/css/footer.css");
 
 * {
