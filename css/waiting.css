@@ -62,24 +62,6 @@
     padding-top: 20px;
 }
 
-.waiting__hr {
-    border: none;
-}
-
-.waiting__hr_color_steelblue {
-    color: steelblue;
-    background-color: steelblue;
-}
-
-.waiting__hr_size_s {
-    height: 3px;
-    width: 60%;
-}
-
-.waiting__hr_position_center {
-    margin: 0 auto;
-}
-
 .waiting__header_dimgray {
     color: DimGray;
 }

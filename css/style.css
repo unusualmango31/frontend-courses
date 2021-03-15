@@ -4,8 +4,10 @@
 @import url("/css/navigation.css");
 @import url("/css/promo.css");
 @import url("/css/more.css");
+@import url("/css/hr.css");
 @import url("/css/waiting.css");
-@import url("/css/footer.css");
+@import url("/css/imperial-navy.css");
+@import url("/css/how-to-join.css");
 
 * {
     padding: 0;
@@ -18,5 +20,5 @@
 }
 
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
 }
