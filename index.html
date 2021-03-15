@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="header header_grey">
+    <header class="header header_color_dimgray">
         <div class="container header__container">
             <a class="logo header__logo">
                 <img src="/icons/header_logo.png" width="55" height="55" alt="main_logo" class="logo__ico">
@@ -22,7 +22,7 @@
 
                 <a href="#" class="navigation__item navigation__item_hover navigation__item_active navigation__item_link">Что вас ждёт</a>
                 <div class="navigation__item">|</div>
-                <a href="#" class="navigation__item navigation__item_bold navigation__item_hover avigation__item_active navigation__item_link">имперский звёздный флот</a>
+                <a href="#" class="navigation__item navigation__item_font-style_bold navigation__item_hover avigation__item_active navigation__item_link">имперский звёздный флот</a>
                 <div class="navigation__item">|</div>
                 <a href="#" class="navigation__item navigation__item_hover navigation__item_active navigation__item_link">Как вступить</a>
             </nav>
@@ -40,9 +40,9 @@
                 <div class="promo__this-is-simple">Очень просто!</div>
                 <div class="promo__title">Вступай в имперский звёздный флот!</div>
                 <div class="promo__text">Мощь Империи в её военной силе — и Имперский флот воплощает самую 
-                элитную и доверенную часть этой силы. Только <span class="promo__text_blue">лучшие</span>, 
+                элитную и доверенную часть этой силы. Только <span class="promo__text_color_steelblue">лучшие</span>, 
                 самые дисциплинированные допускаются в наши ряды.</div>
-                <button class="button button_blue">Вступить!</button>
+                <button class="button button_color_steelblue">Вступить!</button>
                 <div class="more promo__more">
                     <div class="more__text">узнать больше</div>
                     <img src="icons/down_ico.png" alt="" class="more__img">
@@ -51,22 +51,31 @@
         </div>
     </section>
 
-    <section class="waiting">
-        <div class="container waiting__container">
+    <section class="waiting waiting_color_antiquewhite">
+        <div class="container">
+            <h2 class="waiting__header waiting__header_color_dimgray waiting__header_position_center">Что вас ждёт?</h2>
+            <hr class="waiting__hr waiting__hr_color_steelblue waiting__hr_size_s waiting__hr_position_center">
 
-            <div class="waitnig__item">
-                <div class="waiting__pic"></div>
-                <div class="waiting__text"></div>
-            </div>
-
-            <div class="waitnig__item">
-                <div class="waiting__pic"></div>
-                <div class="waiting__text"></div>
-            </div>
-
-            <div class="waitnig__item">
-                <div class="waiting__pic"></div>
-                <div class="waiting__text"></div>
+            <div class="waiting__wrap">
+                <div class="waitnig__item waitnig__item_size_m">
+                    <img src="/img/Tarkin.jpg" alt="tarkin.jpg" class="waiting__pic waiting__pic_size_m waiting__pic_position_center waiting__pic_style_shadow">
+                    <div class="waiting__text">Лучшие инструктора со всей галактики, которые обучат вас высшему пилотажу
+                        на просторах открытого космоса.
+                    </div>
+                </div>
+    
+                <div class="waitnig__item waitnig__item_size_m">
+                    <img src="/img/TIE_fighter.jpg" alt="TIE_fighter.jpg" class="waiting__pic waiting__pic_size_m waiting__pic_position_center waiting__pic_style_shadow">
+                    <div class="waiting__text">Возможность пилотировать самые лучшие летательные космические аппараты. Такие как TIE-истребитель,
+                         TIE «Мститель», TIE «защитник» и др.</div>
+                </div>
+    
+                <div class="waitnig__item waitnig__item_size_m">
+                    <img src="/img/star_destroyer.jpg" alt="star_destroyer.jpg" class="waiting__pic waiting__pic_size_m waiting__pic_position_center waiting__pic_style_shadow">
+                    <div class="waiting__text">Карьерный рост. Начав с обычного служащего на имперском разрушителе вы сможете дослужиться 
+                        до помощника капитана или даже самого капитана!
+                    </div>
+                </div>
             </div>
         </div>
     </section>
